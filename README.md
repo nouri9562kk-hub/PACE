@@ -5,9 +5,8 @@
 #include <unordered_map>
 using namespace std;
 
-class Solution {
-public:
-    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+     class Solution public:
+         vector<int> intersect(vector<int>& nums1, vector<in  t>& nums2) {
         unordered_map<int, int> freq;
         vector<int> result;
 
@@ -27,3 +26,4 @@ public:
         return result;
     }
 };
+
